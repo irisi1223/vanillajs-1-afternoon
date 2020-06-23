@@ -274,7 +274,7 @@ function play(clickedId) {
     board[clickedId] = 'O';
   }
   console.log(board);
-
+}
   const topLeft = board[0];
   const topCenter = board[1];
   const topRight = board[2];
@@ -329,7 +329,7 @@ function play(clickedId) {
   if (boardFull === true) {
     alert("Cat's game, there is no winner");
   }
-}
+
 
 ```
 
