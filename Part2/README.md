@@ -90,8 +90,8 @@ In this step, we will create input fields that can be used to pass information t
         <section><span>A</span><span>♥</span><span>A</span></section>
         <section><span>A</span><span>♠</span><span>A</span></section>
     </main>
-    <input id='idInput' type="text" placeholder='Set ID'>
-    <input id='colorInput' type="text" placeholder='Set Color'>
+    <input id='idInput' type="text" placeholder='Set ID'/>
+    <input id='colorInput' type="text" placeholder='Set Color'/>
     <script src='./index.js'></script>
 </body>
 </html>

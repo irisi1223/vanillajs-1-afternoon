@@ -9,10 +9,14 @@
 <body>
   <header><h1>Poker Cards</h1></header>
     <main>
-        <section><span>A</span><span>♦</span><span>A</span></section>
-        <section><span>A</span><span>♣</span><span>A</span></section>
-        <section><span>A</span><span>♥</span><span>A</span></section>
-        <section><span>A</span><span>♠</span><span>A</span></section>
+        <section id='Diamond'><span>A</span><span>♦</span><span>A</span></section>
+        <section id='Club'><span>A</span><span>♣</span><span>A</span></section>
+        <section id='Heart'><span>A</span><span>♥</span><span>A</span></section>
+        <section id='Spade'><span>A</span><span>♠</span><span>A</span></section>
+        <input id= 'idInput' type='text' placeholder="Set ID"/>
+        <input id= 'colorInput' type='text' placeholder="Set Color"/>
+        <button id='btn' onClick= 'setCard()'>Edit Card</button>
     </main>
+    <script src='./index.js'></script>
 </body>
 </html>
